@@ -18,6 +18,8 @@ public class MyRestController {
 
         System.out.println("测试2");
 
+        System.out.println("测试3");
+
         return "springboot项目访问ok..";
     }
 }
