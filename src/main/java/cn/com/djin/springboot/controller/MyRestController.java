@@ -13,6 +13,9 @@ public class MyRestController {
     //测试访问方法
     @RequestMapping("/test1")
     public @ResponseBody String test1(){
+
+        System.out.println("测试1");
+
         return "springboot项目访问ok..";
     }
 }
